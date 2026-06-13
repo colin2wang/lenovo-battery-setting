@@ -20,7 +20,7 @@ This project is an extracted power management and fan control module from **Leno
 
 ### 界面截图 | Screenshot
 
-![Lenovo BatterySetting Interface](docs\images\screenshot.png)
+![Lenovo BatterySetting Interface](docs/images/screenshot.png)
 
 ---
 
