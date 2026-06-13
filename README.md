@@ -18,6 +18,10 @@
 
 This project is an extracted power management and fan control module from **Lenovo PC Manager**, containing the components above.
 
+### 界面截图 | Screenshot
+
+![Lenovo BatterySetting Interface](docs\images\screenshot.png)
+
 ---
 
 ## 🔧 功能特性 | Features
@@ -49,13 +53,18 @@ Double-click `BatterySetting.exe` to launch the power management interface.
 
 ```
 LenovoBatterySetting/
-├── BatterySetting.exe        # 主程序 Main executable
-├── WrapPlugin.dll            # 插件加载器 Plugin loader
-├── plugins/
-│   └── IdeaFanPlugin.dll     # 风扇控制插件 Fan control plugin
-└── skin/
-    └── lan/
-        └── zh-cn.dat         # 中文语言资源 Chinese language resources
+├── app/
+│   ├── BatterySetting.exe        # 主程序 Main executable
+│   ├── WrapPlugin.dll            # 插件加载器 Plugin loader
+│   ├── plugins/
+│   │   └── IdeaFanPlugin.dll     # 风扇控制插件 Fan control plugin
+│   └── skin/
+│       └── lan/
+│           └── zh-cn.dat         # 中文语言资源 Chinese language resources
+├── docs/
+│   └── images/
+│       └── screenshot.png        # 界面截图 Screenshot
+└── README.md
 ```
 
 ---
@@ -63,14 +72,12 @@ LenovoBatterySetting/
 ## 📥 安装说明 | Installation
 
 1. 将整个文件夹复制到任意位置（无需安装）
-2. 确保 `plugins/` 和 `skin/` 目录与 `BatterySetting.exe` 在同一级目录
-3. 运行 `BatterySetting.exe`
+2. 进入 `app/` 目录运行 `BatterySetting.exe`
 
 > **注意**: 请确保以管理员权限运行，否则部分功能（如风扇控制）可能受限。
 
 1. Copy the entire folder to any location (no installation required)
-2. Ensure `plugins/` and `skin/` directories are at the same level as `BatterySetting.exe`
-3. Run `BatterySetting.exe`
+2. Navigate to the `app/` directory and run `BatterySetting.exe`
 
 > **Note**: Run as Administrator for full functionality (fan control may be restricted otherwise).
 
@@ -113,4 +120,4 @@ This project is for educational and research purposes only. Original software co
 
 ---
 
-*README 生成于 | Generated: 2025-01*
+*README 生成于 | Generated: 2026-06*
