@@ -13,6 +13,7 @@
 |------|------|------|
 | `BatterySetting.exe` | 联想电源管理主程序 | v5.1.80.8221 |
 | `WrapPlugin.dll` | 插件包装层 | v5.1.190.4231 |
+| `libcurl.dll` | libcurl 网络库依赖（运行时必需） | — |
 | `plugins/IdeaFanPlugin.dll` | 风扇控制插件 | v3.0.600.5201 |
 | `skin/lan/zh-cn.dat` | 简体中文字符串资源 | — |
 
@@ -64,6 +65,7 @@ LenovoBatterySetting/
 ├── docs/
 │   └── images/
 │       └── screenshot.png        # 界面截图 Screenshot
+├── libcurl.dll                   # libcurl 网络库运行时依赖
 └── README.md
 ```
 
@@ -120,4 +122,4 @@ This project is for educational and research purposes only. Original software co
 
 ---
 
-*README 生成于 | Generated: 2026-06*
+*README 生成于 | Generated: 2026-07*
